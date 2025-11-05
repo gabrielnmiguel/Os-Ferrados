@@ -1,10 +1,13 @@
 @import "./resetstyle.css";
+@import "./root.css";
 
 body {
     padding: 0px;
     margin: 0px;
 
     width: auto;
+
+    font-family: var(--Roboto-font);
 
 }
 
@@ -24,7 +27,7 @@ header {
     align-items: center;
     justify-content: space-around;
 
-    background: rgba(238, 80, 80, 0.2);
+    background: rgba(0, 0, 0, 0.1);
     color: #fff;
 
     border: none;
@@ -61,6 +64,7 @@ header {
 
 .logo-anchor {
     text-decoration: none;
+    color: inherit;
     
 }
 
@@ -90,6 +94,8 @@ header {
 :is(.logo-x-btn, .logo-facebook-btn, .logo-instagram-btn, .search-btn) {
     font-size: 19px;
     --ionicon-stroke-width: 60px;
+
+    color: inherit;
 
 }
 
@@ -182,3 +188,54 @@ header {
     
 }
 */
+
+
+
+/*  
+Movie Section 
+
+*/
+
+.movie-section {
+    display: flex;
+    flex-direction: column;
+
+    background: seagreen;
+
+    margin-inline: 100px;
+
+
+}
+
+.nomear1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background: darkorange;
+
+}
+
+.movie-title {
+    background: goldenrod;
+    font-size: 50px;
+
+}
+
+.movie-title-year {
+    font-size: 15px;
+
+}
+
+
+.nomear2 {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
